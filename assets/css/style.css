@@ -478,6 +478,9 @@ nav {
   flex: 0 0 40%;
   max-width: 40%;
 }
+.section-title {
+  text-align: center;
+}
 .contact-form {
   flex: 0 0 60%;
   max-width: 60%;
