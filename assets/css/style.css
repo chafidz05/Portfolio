@@ -7,10 +7,10 @@
   
   /* Colors */
   /* Color mode HSL(hue, saturation, lightness) */
-  --text-color: #000;
+  --dark-color: #000;
   --light-color: #fff;
   --hover-color: #049395;
-  --dark-color: #454360;
+  --text-color: #454360;
   --bg-color: #eaf5a5;
   --primary-color: hsl(352, 75%, 60%);
   
@@ -76,7 +76,7 @@ textarea {
 body {
   line-height: 1.7;
   font-weight: var(--font-medium);
-  color: var(--dark-color);
+  color: var(--text-color);
 }
 img {
   max-width: 100%;
@@ -88,7 +88,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--text-color);
 }
 h1,h2,h3 {
   font-weight: var(--font-semi-bold);
@@ -296,7 +296,7 @@ nav {
 }
 
 .mouse {
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--dark-color);
   display: block;
   height: 1.75rem;
   width: 1.25rem;
@@ -306,7 +306,7 @@ nav {
   position: relative;
 }
 .mouse .wheel {
-  background-color: var(--text-color);
+  background-color: var(--dark-color);
   border-radius: 50%;
   width: 0.25rem;
   height: 0.25rem;
@@ -388,7 +388,7 @@ nav {
   padding: var(--card-padding);
   text-align: center;
   transform: translateY(0);
-  transform: 0.3s;
+  transition: 0.2ss;
   width: 250px;
 }
 .services .service-item .service-item-inner:hover {
